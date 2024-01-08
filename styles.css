@@ -1,0 +1,247 @@
+ body {
+   display: flex;
+   flex-direction: column;
+   flex: 1;
+ }
+
+ .alta {
+   display: flex;
+   flex-direction: column;
+   gap: 50px;
+   height: 500px;
+   background-color: #1F2937;
+ }
+ 
+ 
+ .header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1F2937;
+
+    
+ }
+
+ .logo {
+    color: #F9FAF8;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 24px;
+
+ }
+
+ ul {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+    margin-right: 30px;
+    font-size: 18px;
+    color: #E5E7Eb;
+ }
+
+ a , .parrafo {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7Eb;
+ }
+
+ .mid {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 150px;
+}
+
+ .texto-izquierdo{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+ }
+
+ .titulo {
+   color: #F9FAF8;
+   font-size: 48px;
+   font-weight: 800;
+   margin: 0;
+ }
+
+ .parrafo {
+   color: #E5E7Eb;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   width: 400px;
+   margin-top: 0;
+ }
+
+ .botton-container {
+  display: flex;
+  justify-content: flex-start;
+ }
+
+ .boton-log {
+   background-color: #3882F6;
+   border-radius: 10px;
+   font-size: 16px;
+   padding: 10px;
+   width: 150px;
+
+ }
+
+ .imagen-principal {
+   width: 375px;
+   height: 225px;
+ } 
+
+ /* Parte del medio-alto */
+
+ .medio-alto {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+
+
+ }
+
+ .titulo-viajes { 
+
+   color: #1F2937;
+   font-size: 36px;
+   font-weight: 800;
+   margin-top: 60px;
+   
+
+ }
+
+ .info {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 50px;
+   padding: 75px;
+   flex-wrap: wrap;
+   
+
+ }
+
+
+ .imagen-dato {
+   width: 175px;
+   height: 175px;
+   border: #3882F6 solid;
+   border-radius: 10px;
+ }
+
+ .texto-imagen {
+   text-align: center;
+   width: 175px;
+ }
+
+ /* Medio Bajo */
+
+ .medio-bajo {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: #E5E7Eb;
+
+
+ }
+
+ .texto-container {
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+
+ }
+
+ .texto-motivador {
+   text-align: center;
+   height: 250px;
+   width: 700px;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   font-style: italic;
+   font-size: 32px;
+   margin-bottom: 0;
+   margin-top: 65px;
+   padding-bottom: 0;
+
+ }
+
+ .autor {
+   text-align: right;
+   margin-top: -50px;
+   width: 800;
+   font-size: 25px;
+ }
+
+ /* Parte del llamado a la accion */
+
+ .action {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 350px;
+ }
+
+ .cartel { 
+   display: flex;
+   justify-content: space-around;
+   background-color: #3882F6;
+   width: 900px;
+   height: 100px;
+   border-radius: 10px;
+ }
+
+ .texto-action-container {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   gap: 0;
+ }
+
+ .action-title-text {
+   color: #F9FAF8;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   font-weight: bold ;
+   font-size: 24px;
+   padding: 0;
+   margin: 0;
+ }
+
+ .action-subtitle-text {
+   color: #1F2937;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   font-size: 15px;
+   padding: 0;
+   margin: 0;
+ }
+
+ .button-container {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+ }
+
+ .action-botton {
+   height: 30px;
+   width: 150px;
+   background-color: #3882F6;
+   color: #E5E7Eb;
+   border-radius: 10px;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   font-size: 15px;
+   
+ }
+
+ /* Pie de pagina */
+
+ .copy {
+   display: flex;
+   background-color: #1F2937;
+   align-items: center;
+   justify-content: center;
+   height: 75px;
+ }
+
+ .texto-final {
+   color: #E5E7Eb;
+ }
+
